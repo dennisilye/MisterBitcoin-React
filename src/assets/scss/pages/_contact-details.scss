@@ -1,0 +1,22 @@
+.contact-details {
+  display: flex;
+  .icon {
+    color: #7a7985;
+    margin-right: 12px;
+  }
+ 
+  .details-row {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    h2 {
+      width: 80px;
+    }
+  }
+  .details-edit-contact {
+    margin: 15px 0px 30px ;
+    a {
+      font-size: 18px;
+    }
+  }
+}

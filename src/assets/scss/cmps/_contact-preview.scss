@@ -1,0 +1,36 @@
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .contact-preview {
+    &:hover {
+      .preview-delete {
+        visibility: visible;
+      }
+    }
+    .preview-delete {
+      visibility: hidden;
+      color: red;
+    }
+    display: flex;
+    background-color: #0c3c4c;
+    color: white;
+    align-items: center;
+    padding: 5px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    img {
+      width: 60px;
+      border-radius: 50%;
+    }
+    h3 {
+      margin-inline: 15px;
+      justify-self: center;
+      align-self: center;
+    }
+    a {
+      display: flex;
+    }
+  }
+}
